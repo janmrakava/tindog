@@ -1,0 +1,65 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;    
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+main,
+section,
+header{
+    width: 550px;
+}
+header img{
+   height: 30px;
+}
+
+#card .dog-img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#card {
+    position: relative;
+    width: 100%;
+}
+
+.dog-info {
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    left: 10px;
+}
+#reject-button,
+#accept-button{
+    border-radius: 50%;
+    padding: 20px   ;
+    border: none;    
+    margin-top: 20px;
+}
+#reject-button{
+    margin-right: 20px;
+}
+#reject-button:hover,
+#reject-button:focus{
+    background-color: #FFE7EF;    
+}
+#accept-button:hover,
+#accept-button:focus{
+    background-color: #DBFFF4;   
+   
+}
+.name-age{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
